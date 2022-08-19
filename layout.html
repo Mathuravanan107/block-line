@@ -2,48 +2,75 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http_equiv="refresh" content="2">
+  <meta http_equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" contect="frontend developer tutorial">
   <meta name="keyword" contect="">
   <meta name="Author" contect="Mathuravanan">
-  <meta name="viewport" contect="width_device_width,initial_scale=1.0">
+  <meta name="viewport" contect="width=device_width,initial-scale=1.0">
   <title>New tab</title>
   <style>
+    body{
+	     text-align:center;
+		 }
+		   header,footer{
+		   padding: 10px;
+		   }
     header {
-	  background-color:#006400;
+	  background-color:#ff7f50;
 	  }
 	 .menu {
-	   backgroud-color:#ff8c00;
+	   background-color:#ffff00;
+	   flex-basis:200px;
 	   }
-	  .contect {
-	    backgroud-color:#006400;
+	  .content {
+	    background-color:#fffacd;
+		flex-grow:1;
 		}
 	  aside {
-        backgroud-color:#006400;
+        background-color:blue;
+		 flex-basis:200px;
         }
       footer{
-	     backgroud-color:#006400;
+	     background-color:#696969;
 		 }
+	.flex-container{
+		   display: flex;
+		   height:400px;
+		   
+		   }
     </style>		
 	 
   </head>
   <body>
      <header>
-	   <h2>header contect</h2>
+	   <h2>Header content</h2>
 	 </header>
-  <main>
+  <main class="flex-container">
     <section class="menu">
-	  <h3>menu items</h3>
+	  <details>Items
+	   
+	  <ul>
+	     <li>Home</li>
+		 <li>About</li>
+		 <li>contect</li>
+		 <li>place</li>
+		 </ul>
+		</details>
 	  </section>
-	<section class="contect">
-	  <h3>contect items</h3>
+	<section class="content">
+	  <h3>Content Items</h3>
+	  <p>In response to a complaint that we received under the US Digital Millennium Copyright Act, we have removed 1 result(s) from this page.</p>
+	  <blockquote>For several generations, stories from Africa have traditionally been passed down by word of mouth. Often, after a hard day’s work, the adults would gather the children together by moonlight, around a village fire and tell stories. </blockquote>
 	 </section>
    <aside>
-      <h3>aside contect</h3>
+      <h3>Image</h3>
+	  <img src="https://images.unsplash.com/photo-1420593248178-d88870618ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80" width="150px" height="320">
    </aside>
   </main>
   <footer>
-     <h3>footer contect</h3>
+     
+	 <p>Author: Mathuravanan</p>
+  <p background-color:#000;><a href="https://www.w3schools.com/">W3school </a></p>
   </footer>	 
   
    </body>
